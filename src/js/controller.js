@@ -114,6 +114,10 @@ const controlAddRecipe = async newRecipe => {
   }
 };
 
+const welcomeMessage = () => {
+  console.log('Welcome to the application');
+};
+
 const init = () => {
   bookmarksView.addRenderBookmarksHandler(controlBookmarks);
   recipeView.addRenderHandler(controlRecipes);
