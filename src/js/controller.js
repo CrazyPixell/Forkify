@@ -126,6 +126,7 @@ const init = () => {
   searchView.addSearchHandler(controlSearchResults);
   paginationView.addSwitchHandler(controlPagination);
   addRecipeView.addUploadHandler(controlAddRecipe);
+  welcomeMessage();
 };
 
 init();
